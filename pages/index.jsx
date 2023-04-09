@@ -8,6 +8,8 @@ import Portfolio from "../components/Portfolio";
 import ClientCard from "../components/ClientCard";
 import PricingSection from "../components/PricingSection";
 import Testimonial from "../components/Testimonial";
+import AskQues from "../components/AskQues";
+import News from "../components/News";
 export default function Home() {
   return (
     <main className="">
@@ -21,6 +23,8 @@ export default function Home() {
       <ClientCard />
       <PricingSection />
       <Testimonial />
+      <AskQues />
+      <News />
     </main>
   );
 }
