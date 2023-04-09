@@ -1,5 +1,3 @@
-import React from "react";
-
 import porfolio from "../assets/images/PortfolioImg/div.item.png";
 import porfolio1 from "../assets/images/PortfolioImg/div.item (1).png";
 import porfolio2 from "../assets/images/PortfolioImg/div.item (2).png";

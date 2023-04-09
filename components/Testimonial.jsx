@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 import profileImg from "../assets/images/TestimonialImg/1.png.png";
 

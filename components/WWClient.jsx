@@ -1,5 +1,3 @@
-import React from "react";
-
 import img1980 from "../assets/images/WWClientImg/1980..png";
 import vectorUnderline from "../assets/images/WWClientImg/Vector.png";
 import rightImg from "../assets/images/WWClientImg/photo-1.png.png";

@@ -1,4 +1,3 @@
-import React from "react";
 import logoImg from "../assets/images/heroImg/logo.png";
 import searchIcon from "../assets/images/heroImg/SearchIcon.png";
 import darkMode from "../assets/images/heroImg/DarkMode.png";
@@ -83,7 +82,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-base text-white font-medium leading-[90px] capitalize"
-                    href="@"
+                    href="#contact"
                   >
                     Contact Us
                   </a>

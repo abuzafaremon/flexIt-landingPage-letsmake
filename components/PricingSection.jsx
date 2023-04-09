@@ -1,5 +1,3 @@
-import React from "react";
-
 import card from "../assets/images/PricingPlanImg/Group.png";
 import card1 from "../assets/images/PricingPlanImg/Group (1).png";
 import card2 from "../assets/images/PricingPlanImg/Group (2).png";

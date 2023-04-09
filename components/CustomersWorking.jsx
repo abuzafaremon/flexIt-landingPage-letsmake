@@ -1,5 +1,3 @@
-import React from "react";
-
 import leftImage from "../assets/images/CustomerWorkingImg/photo-2.png.png";
 import working from "../assets/images/CustomerWorkingImg/working.png";
 import vertorUnderline from "../assets/images/CustomerWorkingImg/Vector.png";

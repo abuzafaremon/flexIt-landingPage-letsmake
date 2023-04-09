@@ -1,5 +1,3 @@
-import React from "react";
-
 import clientCard from "../assets/images/ClientCard/div.client-logo.png";
 import clientCard1 from "../assets/images/ClientCard/div.client-logo (1).png";
 import clientCard2 from "../assets/images/ClientCard/div.client-logo (2).png";

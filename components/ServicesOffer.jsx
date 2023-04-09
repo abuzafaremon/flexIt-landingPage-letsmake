@@ -1,5 +1,3 @@
-import React from "react";
-
 import webDev from "../assets/images/ServiceOfferimg/Frame (2).png";
 import digitalMarketing from "../assets/images/ServiceOfferimg/Frame.png";
 import SaaSProduct from "../assets/images/ServiceOfferimg/Frame (1).png";

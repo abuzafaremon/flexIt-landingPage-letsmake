@@ -1,13 +1,12 @@
 import Image from "next/image";
-import React from "react";
 
-import card1 from "../assets/images/RatingImg/Frame (1).png";
+import card1 from "../assets/images/RatingImg/statistics.png";
 
 const RatingSection = () => {
   return (
     <>
       <section className="bg-[#07102E]">
-        <div className='bg-[url("/src/images/RatingImg/div.overlay-photo-image-bg.png")] bg-center bg-cover bg-no-repeat dark:bg-slate-900'>
+        <div className='bg-[url("../assets/images/RatingImg/ratting-bg.png")] bg-center bg-cover bg-no-repeat dark:bg-slate-900'>
           <div className="containerall container mx-auto p-4">
             <div
               className="rating_div 

@@ -1,5 +1,3 @@
-import React from "react";
-
 import img1 from "../assets/images/NewsImg/div.post-img-wrapper.png";
 import img2 from "../assets/images/NewsImg/2.jpg.png";
 import img3 from "../assets/images/NewsImg/3.jpg.png";
