@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import profileImg from "../assets/images/TestimonialImg/1.png.png";
+import profileImg from "../assets/images/TestimonialImg/person-1.png";
 
 const Testimonial = () => {
   return (
@@ -21,7 +21,11 @@ const Testimonial = () => {
             >
               Customers Testimonials
             </h1>
-            <Image className="inline-block mb-12" src={profileImg} alt="" />
+            <Image
+              className="inline-block mb-12"
+              src={profileImg}
+              alt="profileImg"
+            />
 
             <div className="flex items-center gap-24 justify-center mb-[35px]">
               <p className="bg-gray-600 p-[14px]">&lt;</p>

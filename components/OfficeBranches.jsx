@@ -1,6 +1,6 @@
 import Image from "next/image";
-import email from "../assets/images/OfficeBranchImg/i.flaticon-email.png";
-import phone from "../assets/images/OfficeBranchImg/i.flaticon-phone-call.png";
+import email from "../assets/images/OfficeBranchImg/email.png";
+import phone from "../assets/images/OfficeBranchImg/phone-call.png";
 
 const OfficeBranches = () => {
   return (
@@ -36,7 +36,7 @@ const OfficeBranches = () => {
                 </p>
 
                 <div className="flex items-center gap-4 mb-8 mt-[37px]">
-                  <Image src={email} alt="" />
+                  <Image src={email} alt="email" />
                   <div>
                     <h3 className="text-xl text-[#09AFF4BF] font-medium">
                       Email:
@@ -48,7 +48,7 @@ const OfficeBranches = () => {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <Image src={phone} alt="" />
+                  <Image src={phone} alt="phone" />
                   <div>
                     <h3 className="text-xl text-[#09AFF4BF] font-medium">
                       Phone:

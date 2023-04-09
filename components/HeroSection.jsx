@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -49,7 +50,7 @@ const HeroSection = () => {
                   <div className="flex items-center gap-5 mt-4">
                     service & IT
                     <div>
-                      <img
+                      <Image
                         className="
                                     w-[87px]
                                     xl:w-[250px]
@@ -58,9 +59,9 @@ const HeroSection = () => {
                                     sm:text-2xl
                                     "
                         src={solutions}
-                        alt=""
+                        alt="solutions"
                       />
-                      <img
+                      <Image
                         className="
                                     w-[87px]
                                     xl:w-[250px]
@@ -69,7 +70,7 @@ const HeroSection = () => {
                                     sm:text-2xl
                                     "
                         src={VectorUnderline}
-                        alt=""
+                        alt="underline"
                       />
                     </div>
                   </div>

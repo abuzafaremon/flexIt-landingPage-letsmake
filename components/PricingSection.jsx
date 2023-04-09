@@ -1,7 +1,7 @@
-import card from "../assets/images/PricingPlanImg/Group.png";
-import card1 from "../assets/images/PricingPlanImg/Group (1).png";
-import card2 from "../assets/images/PricingPlanImg/Group (2).png";
-import card3 from "../assets/images/PricingPlanImg/Group (3).png";
+import card from "../assets/images/PricingPlanImg/free.png";
+import card1 from "../assets/images/PricingPlanImg/stander.png";
+import card2 from "../assets/images/PricingPlanImg/pro.png";
+import card3 from "../assets/images/PricingPlanImg/unlimited.png";
 import Image from "next/image";
 
 const PricingSection = () => {
@@ -47,7 +47,7 @@ const PricingSection = () => {
             >
               {/* price card */}
               <div className="p-[33px_17px] bg-[#ffffff01] border border-solid border-[#09aff459] shadow-[1px_1px_10px_rgba(6,9,34,0.15)] rounded-[8px_8px_0px_0px] text-center hover:text-white hover:bg-[#09AFF4]">
-                <Image className="mb-5 inline-block" src={card} alt="" />
+                <Image className="mb-5 inline-block" src={card} alt="free" />
 
                 <h4 className="mb-[18px] text-2xl font-semibold">Free Plan</h4>
                 <h1 className="text-[64px] font-semibold leading-[64px] mb-2">
@@ -75,7 +75,11 @@ const PricingSection = () => {
               </div>
               {/* price card */}
               <div className="p-[33px_17px] bg-[#ffffff01] border border-solid border-[#09aff459] shadow-[1px_1px_10px_rgba(6,9,34,0.15)] rounded-[8px_8px_0px_0px] text-center hover:text-white hover:bg-[#09AFF4]">
-                <Image className="mb-5 inline-block" src={card1} alt="" />
+                <Image
+                  className="mb-5 inline-block"
+                  src={card1}
+                  alt="stander"
+                />
 
                 <h4 className="mb-[18px] text-2xl font-semibold">
                   Standard Plan
@@ -105,7 +109,7 @@ const PricingSection = () => {
               </div>
               {/* price card */}
               <div className="p-[33px_17px] bg-[#ffffff01] border border-solid border-[#09aff459] shadow-[1px_1px_10px_rgba(6,9,34,0.15)] rounded-[8px_8px_0px_0px] text-center hover:text-white hover:bg-[#09AFF4]">
-                <Image className="mb-5 inline-block" src={card2} alt="" />
+                <Image className="mb-5 inline-block" src={card2} alt="pro" />
 
                 <h4 className="mb-[18px] text-2xl font-semibold">Pro Plan</h4>
                 <h1 className="text-[64px] font-semibold leading-[64px] mb-2">
@@ -133,7 +137,11 @@ const PricingSection = () => {
               </div>
               {/* price card */}
               <div className="p-[33px_17px] bg-[#ffffff01] border border-solid border-[#09aff459] shadow-[1px_1px_10px_rgba(6,9,34,0.15)] rounded-[8px_8px_0px_0px] text-center hover:text-white hover:bg-[#09AFF4]">
-                <Image className="mb-5 inline-block" src={card3} alt="" />
+                <Image
+                  className="mb-5 inline-block"
+                  src={card3}
+                  alt="unlimited"
+                />
 
                 <h4 className="mb-[18px] text-2xl font-semibold">
                   Ultimate Plan

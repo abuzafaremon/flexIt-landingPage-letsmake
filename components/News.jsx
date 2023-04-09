@@ -1,6 +1,6 @@
-import img1 from "../assets/images/NewsImg/div.post-img-wrapper.png";
-import img2 from "../assets/images/NewsImg/2.jpg.png";
-import img3 from "../assets/images/NewsImg/3.jpg.png";
+import img1 from "../assets/images/NewsImg/img-1.png";
+import img2 from "../assets/images/NewsImg/img-2.png";
+import img3 from "../assets/images/NewsImg/img-3.png";
 import Image from "next/image";
 
 const News = () => {
@@ -46,7 +46,7 @@ const News = () => {
             >
               {/* card 1*/}
               <div className="rounded bg-[#DAF3FD] dark:bg-slate-900">
-                <Image className="w-full" src={img1} alt="" />
+                <Image className="w-full" src={img1} alt="news" />
 
                 <div className=" p-4">
                   <div className="flex justify-start items-center gap-3">
@@ -106,7 +106,7 @@ const News = () => {
 
               {/* card 2 */}
               <div className="rounded bg-[#DAF3FD] dark:bg-slate-900">
-                <Image className="w-full" src={img2} alt="" />
+                <Image className="w-full" src={img2} alt="news" />
 
                 <div className=" p-4">
                   <div className="flex justify-start items-center gap-3">
@@ -166,7 +166,7 @@ const News = () => {
 
               {/* card 3 */}
               <div className="rounded bg-[#DAF3FD] dark:bg-slate-900">
-                <Image className="w-full" src={img3} alt="" />
+                <Image className="w-full" src={img3} alt="news" />
 
                 <div className=" p-4">
                   <div className="flex justify-start items-center gap-3 mb-2">

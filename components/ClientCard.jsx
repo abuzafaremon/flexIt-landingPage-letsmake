@@ -1,9 +1,9 @@
 import clientCard from "../assets/images/ClientCard/div.client-logo.png";
-import clientCard1 from "../assets/images/ClientCard/div.client-logo (1).png";
-import clientCard2 from "../assets/images/ClientCard/div.client-logo (2).png";
-import clientCard3 from "../assets/images/ClientCard/div.client-logo (3).png";
-import clientCard4 from "../assets/images/ClientCard/div.client-logo (4).png";
-import clientCard5 from "../assets/images/ClientCard/div.client-logo (5).png";
+import clientCard1 from "../assets/images/ClientCard/div.client-logo-1.png";
+import clientCard2 from "../assets/images/ClientCard/div.client-logo-2.png";
+import clientCard3 from "../assets/images/ClientCard/div.client-logo-3.png";
+import clientCard4 from "../assets/images/ClientCard/div.client-logo-4.png";
+import clientCard5 from "../assets/images/ClientCard/div.client-logo-5.png";
 import Image from "next/image";
 
 const ClientCard = () => {

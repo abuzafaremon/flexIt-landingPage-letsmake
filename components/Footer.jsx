@@ -23,7 +23,7 @@ const Footer = () => {
             >
               {/* left side start */}
               <div className="px-3 pb-8 lg:w-2/5">
-                <Image className="mb-[26px]" src={logo} alt="" />
+                <Image className="mb-[26px]" src={logo} alt="logo" />
 
                 <p className="text-white mb-[27px]">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -96,19 +96,19 @@ const Footer = () => {
                 <div>
                   {/* 1 */}
                   <div className="flex items-center gap-2 mb-6">
-                    <Image src={message} alt="" />
+                    <Image src={message} alt="message" />
                     <code>example@support.com</code>
                   </div>
 
                   {/* 2 */}
                   <div className="flex items-center gap-2 mb-6">
-                    <Image src={location} alt="" />
+                    <Image src={location} alt="location" />
                     <p>5 Xyz st., Abc, alexandria, egypt.</p>
                   </div>
 
                   {/* 3 */}
                   <div className="flex items-center gap-2 mb-6">
-                    <Image src={phone} alt="" />
+                    <Image src={phone} alt="phone" />
                     <code>+20123456789</code>
                   </div>
                 </div>
@@ -116,19 +116,19 @@ const Footer = () => {
                 {/* icons */}
                 <div className="flex items-center gap-[10px]">
                   <a href="@">
-                    <Image src={facebook} alt="" />
+                    <Image src={facebook} alt="facebook" />
                   </a>
 
                   <a href="@">
-                    <Image src={youtube} alt="" />
+                    <Image src={youtube} alt="youtube" />
                   </a>
 
                   <a href="@">
-                    <Image src={instagram} alt="" />
+                    <Image src={instagram} alt="instagram" />
                   </a>
 
                   <a href="@">
-                    <Image src={twitter} alt="" />
+                    <Image src={twitter} alt="twitter" />
                   </a>
                 </div>
               </div>

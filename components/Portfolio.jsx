@@ -1,9 +1,9 @@
-import porfolio from "../assets/images/PortfolioImg/div.item.png";
-import porfolio1 from "../assets/images/PortfolioImg/div.item (1).png";
-import porfolio2 from "../assets/images/PortfolioImg/div.item (2).png";
-import porfolio3 from "../assets/images/PortfolioImg/div.item (3).png";
-import porfolio4 from "../assets/images/PortfolioImg/div.item (4).png";
-import porfolio5 from "../assets/images/PortfolioImg/div.item (5).png";
+import porfolio from "../assets/images/PortfolioImg/portfolio-6.png";
+import porfolio1 from "../assets/images/PortfolioImg/portfolio-1.png";
+import porfolio2 from "../assets/images/PortfolioImg/portfolio-2.png";
+import porfolio3 from "../assets/images/PortfolioImg/portfolio-3.png";
+import porfolio4 from "../assets/images/PortfolioImg/portfolio-4.png";
+import porfolio5 from "../assets/images/PortfolioImg/portfolio-5.png";
 import Image from "next/image";
 
 const Portfolio = () => {
@@ -78,12 +78,12 @@ const Portfolio = () => {
 
                      "
               >
-                <Image src={porfolio} alt="" />
-                <Image src={porfolio1} alt="" />
-                <Image src={porfolio2} alt="" />
-                <Image src={porfolio3} alt="" />
-                <Image src={porfolio4} alt="" />
-                <Image src={porfolio5} alt="" />
+                <Image src={porfolio} alt="portfolio" />
+                <Image src={porfolio1} alt="portfolio" />
+                <Image src={porfolio2} alt="portfolio" />
+                <Image src={porfolio3} alt="portfolio" />
+                <Image src={porfolio4} alt="portfolio" />
+                <Image src={porfolio5} alt="portfolio" />
               </div>
               {/* images end */}
             </div>

@@ -1,6 +1,9 @@
 import Image from "next/image";
 
-import card1 from "../assets/images/RatingImg/statistics.png";
+import finished from "../assets/images/RatingImg/statistics.png";
+import jobs from "../assets/images/RatingImg/created-jobs.png";
+import customer from "../assets/images/RatingImg/customer.png";
+import experience from "../assets/images/RatingImg/experience.png";
 
 const RatingSection = () => {
   return (
@@ -15,7 +18,7 @@ const RatingSection = () => {
               {/* card */}
               <div className="text-white p-[35px_80px] border-t-4 border border-solid border-[#09AFF4] text-center rounded-[0_0_8px_8px]">
                 <div className="flex items-center justify-center">
-                  <Image src={card1} alt="" />
+                  <Image src={finished} alt="finished" />
                 </div>
                 <h1 className="text-5xl font-semibold my-2">750+</h1>
                 <p className="text-xl">Finished Projects</p>
@@ -23,7 +26,7 @@ const RatingSection = () => {
               {/* card */}
               <div className="text-white p-[35px_80px] border-t-4 border border-solid border-[#09AFF4] text-center rounded-[0_0_8px_8px]">
                 <div className="flex items-center justify-center">
-                  <Image src={card1} alt="" />
+                  <Image src={jobs} alt="jobs" />
                 </div>
                 <h1 className="text-5xl font-semibold my-2">23+</h1>
                 <p className="text-xl">Created Jobs</p>
@@ -31,7 +34,7 @@ const RatingSection = () => {
               {/* card */}
               <div className="text-white p-[35px_80px] border-t-4 border border-solid border-[#09AFF4] text-center rounded-[0_0_8px_8px]">
                 <div className="flex items-center justify-center">
-                  <Image src={card1} alt="" />
+                  <Image src={customer} alt="customer" />
                 </div>
                 <h1 className="text-5xl font-semibold my-2">200+</h1>
                 <p className="text-xl">Happy Customers</p>
@@ -39,7 +42,7 @@ const RatingSection = () => {
               {/* card */}
               <div className="text-white p-[35px_80px] border-t-4 border border-solid border-[#09AFF4] text-center rounded-[0_0_8px_8px]">
                 <div className="flex items-center justify-center">
-                  <Image src={card1} alt="" />
+                  <Image src={experience} alt="experience" />
                 </div>
                 <h1 className="text-5xl font-semibold my-2">28+</h1>
                 <p className="text-xl">Years Of Experience</p>

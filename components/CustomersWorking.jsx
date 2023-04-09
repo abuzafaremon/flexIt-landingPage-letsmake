@@ -15,7 +15,7 @@ const CustomersWorking = () => {
           >
             {/* image div start */}
             <div>
-              <Image className="w-full" src={leftImage} alt="" />
+              <Image className="w-full" src={leftImage} alt="leftImage" />
             </div>
             {/* image div end */}
 
@@ -42,12 +42,12 @@ const CustomersWorking = () => {
                         <Image
                           className="w-28  md:w-full"
                           src={working}
-                          alt=""
+                          alt="working"
                         />
                         <Image
                           className="w-28 md:w-full"
                           src={vertorUnderline}
-                          alt=""
+                          alt="vertorUnderline"
                         />
                       </div>
                     </div>

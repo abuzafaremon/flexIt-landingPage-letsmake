@@ -36,8 +36,8 @@ const WWClient = () => {
                   <div className="flex items-center gap-5">
                     Clients since
                     <div className="md:mt-5">
-                      <Image className="mb-2" src={img1980} alt="" />
-                      <Image src={vectorUnderline} alt="" />
+                      <Image className="mb-2" src={img1980} alt="image" />
+                      <Image src={vectorUnderline} alt="image" />
                     </div>
                   </div>
                 </h1>
@@ -55,7 +55,7 @@ const WWClient = () => {
               >
                 {/* card */}
                 <div className="flex gap-5 items-start">
-                  <Image src={firstOnField} alt="" />
+                  <Image src={firstOnField} alt="firstOnField" />
                   <div>
                     <h3 className="text-2xl font-bold mb-3">First On Field</h3>
                     <p className="text-[#060922] dark:text-white">
@@ -66,7 +66,7 @@ const WWClient = () => {
                 </div>
                 {/* card */}
                 <div className="flex gap-5 items-start">
-                  <Image src={EasytoReach} alt="" />
+                  <Image src={EasytoReach} alt="EasytoReach" />
                   <div>
                     <h3 className="text-2xl font-bold mb-3">Easy To Reach</h3>
                     <p className="text-[#060922] dark:text-white">
@@ -77,7 +77,7 @@ const WWClient = () => {
                 </div>
                 {/* card */}
                 <div className="flex gap-5 items-start">
-                  <Image src={WWServices} alt="" />
+                  <Image src={WWServices} alt="WWServices" />
                   <div>
                     <h3 className="text-2xl font-bold mb-3">
                       Worldwide Services
@@ -90,7 +90,7 @@ const WWClient = () => {
                 </div>
                 {/* card */}
                 <div className="flex gap-5 items-start">
-                  <Image src={support} alt="" />
+                  <Image src={support} alt="support" />
                   <div>
                     <h3 className="text-2xl font-bold mb-3">24/7 Support</h3>
                     <p className="text-[#060922] dark:text-white">
@@ -108,7 +108,7 @@ const WWClient = () => {
                 </div>
 
                 <div className="flex justify-end">
-                  <Image src={signature} alt="" />
+                  <Image src={signature} alt="signature" />
                 </div>
                 {/* signature end */}
               </div>
@@ -118,7 +118,7 @@ const WWClient = () => {
 
             {/* image start */}
             <div>
-              <Image className="w-full" src={rightImg} alt="" />
+              <Image className="w-full" src={rightImg} alt="rightImg" />
             </div>
             {/* image end */}
           </div>
