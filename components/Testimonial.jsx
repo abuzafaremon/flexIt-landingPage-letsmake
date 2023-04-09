@@ -5,7 +5,10 @@ import profileImg from "../assets/images/TestimonialImg/1.png.png";
 const Testimonial = () => {
   return (
     <>
-      <section className="bg-[#060922] py-20 text-white text-center dark:bg-slate-900">
+      <section
+        id="testimonial"
+        className="bg-[#060922] py-20 text-white text-center dark:bg-slate-900"
+      >
         <div className="containerall container mx-auto px-5">
           <div className="testimonial">
             <h5 className="uppercase text-[#09AFF4] text-base font-semibold leading-6 mb-5">

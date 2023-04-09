@@ -15,7 +15,9 @@ const Navbar = () => {
                lg:flex lg:justify-between lg:items-center
                "
           >
-            <Image src={logoImg} alt="Logo img" />
+            <a href="#hero">
+              <Image src={logoImg} alt="Logo img" />
+            </a>
 
             <div>
               <ul
@@ -26,7 +28,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-base text-white font-medium leading-[90px] capitalize"
-                    href="@"
+                    href="#hero"
                   >
                     Home
                   </a>
@@ -34,7 +36,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-base text-white font-medium leading-[90px] capitalize"
-                    href="@"
+                    href="#services"
                   >
                     Service
                   </a>
@@ -42,7 +44,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-base text-white font-medium leading-[90px] capitalize"
-                    href="@"
+                    href="#about"
                   >
                     About
                   </a>
@@ -50,7 +52,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-base text-white font-medium leading-[90px] capitalize"
-                    href="@"
+                    href="#portfolio"
                   >
                     Portfolio
                   </a>
@@ -58,7 +60,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-base text-white font-medium leading-[90px] capitalize"
-                    href="@"
+                    href="#pricing"
                   >
                     Pricing
                   </a>
@@ -66,7 +68,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-base text-white font-medium leading-[90px] capitalize"
-                    href="@"
+                    href="#testimonial"
                   >
                     Testimonial
                   </a>
@@ -74,7 +76,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-base text-white font-medium leading-[90px] capitalize"
-                    href="@"
+                    href="#faq"
                   >
                     FAQ
                   </a>

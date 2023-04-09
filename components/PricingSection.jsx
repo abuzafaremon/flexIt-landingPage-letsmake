@@ -7,7 +7,7 @@ import Image from "next/image";
 const PricingSection = () => {
   return (
     <>
-      <section className="dark:text-white dark:bg-slate-900">
+      <section id="pricing" className="dark:text-white dark:bg-slate-900">
         <div className="containerall container mx-auto p-4">
           <div className="pricing py-20">
             {/* header part start */}

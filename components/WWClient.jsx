@@ -11,7 +11,7 @@ import Image from "next/image";
 const WWClient = () => {
   return (
     <>
-      <section className="pb-24 dark:bg-slate-900 dark:text-white">
+      <section id="about" className="pb-24 dark:bg-slate-900 dark:text-white">
         <div className="containerall container mx-auto p-5">
           <div
             className="ww_div flex flex-col items-center justify-between gap-6

@@ -9,7 +9,10 @@ import VectorUnderline from "../assets/images/heroImg/VectorUnderline.png";
 const HeroSection = () => {
   return (
     <>
-      <section className="bg-[url('../assets/images/heroImg/Herobg.png')] bg-cover bg-no-repeat bg-center w-full pb-20">
+      <section
+        id="hero"
+        className="bg-[url('../assets/images/heroImg/Herobg.png')] bg-cover bg-no-repeat bg-center w-full pb-20"
+      >
         <div className='bg-[url("/src/images/heroImg/bgTop.png")] w-full h-full'>
           <div className="containerall container mx-auto p-5">
             <div className="hero_div flex flex-col h-full mt-[80px]">

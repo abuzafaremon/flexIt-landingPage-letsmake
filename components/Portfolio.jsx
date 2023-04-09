@@ -9,7 +9,10 @@ import Image from "next/image";
 const Portfolio = () => {
   return (
     <>
-      <section className="py-[80px] dark:text-white dark:bg-slate-900">
+      <section
+        id="portfolio"
+        className="py-[80px] dark:text-white dark:bg-slate-900"
+      >
         <div className="containerall container mx-auto p-4">
           <div className="portfolio">
             {/* header start */}

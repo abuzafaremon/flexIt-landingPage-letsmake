@@ -5,7 +5,7 @@ import leftImg from "../assets/images/askQuesImg/faq-illustration.png.png";
 const AskQues = () => {
   return (
     <>
-      <section className="py-20 dark:text-white dark:bg-slate-900">
+      <section id="faq" className="py-20 dark:text-white dark:bg-slate-900">
         <div className="containerall container mx-auto px-5">
           <div
             className="ask-ques grid grid-cols-1 gap-3 justify-between items-center

@@ -10,6 +10,7 @@ const ServicesOffer = () => {
   return (
     <>
       <section
+        id="services"
         className="pb-48 
          dark:text-white dark:bg-slate-900
          "
