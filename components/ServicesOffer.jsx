@@ -11,36 +11,25 @@ const ServicesOffer = () => {
     <>
       <section
         id="services"
-        className="pb-48 
-         dark:text-white dark:bg-slate-900
-         "
+        className=" 
+         dark:text-white
+         dark:bg-slate-900"
       >
-        <div className="containerall container mx-auto p-5">
-          <div className="services_offer py-20">
+        <div className="container mx-auto p-5">
+          <div className="py-20">
             {/* service offer header start */}
-            <div
-              className="
-                  md:flex md:justify-between md:items-center md:text-start
-                  grid gap-6 justify-center items-center text-center
-                  "
-            >
+            <div className="grid gap-6 justify-center items-center text-center md:flex md:justify-between md:text-start">
               <div>
-                <p className="text-base text-[#09AFF4] font-bold">
-                  ● Services ●
-                </p>
+                <p className="text-[#09AFF4] font-bold">● Services ●</p>
                 <h1 className="text-5xl leading-[62px]">Services We Offer</h1>
-                <p
-                  className="text-[#060922] leading-6 md:w-[400px]
-                        dark:text-white
-                        "
-                >
+                <p className="text-[#060922] leading-6 md:w-[400px] dark:text-white">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit Omnis
                   id atque dignissimos repellat quae ullam.
                 </p>
               </div>
 
               <div>
-                <button className="text-[#09AFF4] text-xl border-2 border-solid border-[#09AFF4] p-[14px_40px] bg-[rgba(255,255,255,0.002)]shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-[#09AFF4] hover:text-white">
+                <button className="text-[#09AFF4] text-xl border-2 border-[#09AFF4] p-[14px_40px]  rounded-[4px_16px] hover:bg-[#09AFF4] hover:text-white">
                   See All Services &rarr;
                 </button>
               </div>
@@ -64,10 +53,7 @@ const ServicesOffer = () => {
                   Lorem ipsum dolor sit amet consecltetur adipisicing elit.
                   Omnis tempore perfe rendis explicabo.
                 </p>
-                <a
-                  className="text-[#09AFF4] text-base font-semibold capitalize"
-                  href="#"
-                >
+                <a className="text-[#09AFF4] font-semibold capitalize" href="#">
                   Read More &rarr;
                 </a>
               </div>
@@ -81,10 +67,7 @@ const ServicesOffer = () => {
                   Lorem ipsum dolor sit amet consecltetur adipisicing elit.
                   Omnis tempore perfe rendis explicabo.
                 </p>
-                <a
-                  className="text-[#09AFF4] text-base font-semibold capitalize"
-                  href="#"
-                >
+                <a className="text-[#09AFF4] font-semibold capitalize" href="#">
                   Read More &rarr;
                 </a>
               </div>
@@ -98,10 +81,7 @@ const ServicesOffer = () => {
                   Lorem ipsum dolor sit amet consecltetur adipisicing elit.
                   Omnis tempore perfe rendis explicabo.
                 </p>
-                <a
-                  className="text-[#09AFF4] text-base font-semibold capitalize"
-                  href="#"
-                >
+                <a className="text-[#09AFF4] font-semibold capitalize" href="#">
                   Read More &rarr;
                 </a>
               </div>
@@ -115,10 +95,7 @@ const ServicesOffer = () => {
                   Lorem ipsum dolor sit amet consecltetur adipisicing elit.
                   Omnis tempore perfe rendis explicabo.
                 </p>
-                <a
-                  className="text-[#09AFF4] text-base font-semibold capitalize"
-                  href="#"
-                >
+                <a className="text-[#09AFF4] font-semibold capitalize" href="#">
                   Read More &rarr;
                 </a>
               </div>
@@ -132,10 +109,7 @@ const ServicesOffer = () => {
                   Lorem ipsum dolor sit amet consecltetur adipisicing elit.
                   Omnis tempore perfe rendis explicabo.
                 </p>
-                <a
-                  className="text-[#09AFF4] text-base font-semibold capitalize"
-                  href="#"
-                >
+                <a className="text-[#09AFF4] font-semibold capitalize" href="#">
                   Read More &rarr;
                 </a>
               </div>
@@ -149,10 +123,7 @@ const ServicesOffer = () => {
                   Lorem ipsum dolor sit amet consecltetur adipisicing elit.
                   Omnis tempore perfe rendis explicabo.
                 </p>
-                <a
-                  className="text-[#09AFF4] text-base font-semibold capitalize"
-                  href="#"
-                >
+                <a className="text-[#09AFF4] font-semibold capitalize" href="#">
                   Read More &rarr;
                 </a>
               </div>
