@@ -11,25 +11,49 @@ const Portfolio = () => {
     <>
       <section
         id="portfolio"
-        className="py-[80px] dark:text-white dark:bg-slate-900"
+        className="py-[80px]
+        dark:text-white 
+        dark:bg-slate-900"
       >
-        <div className="containerall container mx-auto p-4">
+        <div className="container mx-auto p-4">
           <div className="portfolio">
             {/* header start */}
             <div
-              className="flex flex-col justify-between md:items-center
-                  md:flex-row"
+              className="flex 
+              flex-col 
+              justify-between 
+              md:items-center
+              md:flex-row"
             >
               <div>
-                <p className="text-[#09AFF4] text-base font-semibold leading-6 uppercase">
+                <h3
+                  className="text-[#09AFF4] 
+                  font-semibold 
+                  uppercase"
+                >
                   ● Portfolio ●
-                </p>
-                <h3 className="text-5xl font-medium leading-[62px] tracking-[1.5px]">
-                  Awesome Portfolio
                 </h3>
+                <h2
+                  className="text-5xl
+                  font-medium
+                  leading-[62px]
+                  tracking-[1.5px]"
+                >
+                  Awesome Portfolio
+                </h2>
               </div>
               <div>
-                <button className="text-[#09AFF4] text-xl border-2 border-solid border-[#09AFF4] p-[14px_40px] bg-[rgba(255,255,255,0.002)]shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-[#09AFF4] hover:text-white">
+                <button
+                  className="text-[#09AFF4] 
+                  text-xl 
+                  border-2 
+                  border-solid 
+                  border-[#09AFF4] 
+                  p-[14px_40px] 
+                  rounded-[4px_16px] 
+                  hover:bg-[#09AFF4] 
+                  hover:text-white"
+                >
                   See More &rarr;
                 </button>
               </div>
@@ -72,11 +96,11 @@ const Portfolio = () => {
 
               {/* images start */}
               <div
-                className="grid grid-cols-1 gap-2
-                     sm:grid-cols-2
-                     md:grid-cols-3
-
-                     "
+                className="grid 
+                grid-cols-1 
+                sm:grid-cols-2
+                md:grid-cols-3
+                gap-2"
               >
                 <Image src={porfolio} alt="portfolio" />
                 <Image src={porfolio1} alt="portfolio" />

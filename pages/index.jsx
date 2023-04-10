@@ -5,7 +5,7 @@ import About from "../components/About";
 import OurSpecialty from "../components/OurSpecialty";
 import RatingSection from "../components/RatingSection";
 import Portfolio from "../components/Portfolio";
-import ClientCard from "../components/ClientCard";
+import Clients from "../components/Clients";
 import PricingSection from "../components/PricingSection";
 import Testimonial from "../components/Testimonial";
 import FAQ from "../components/FAQ";
@@ -24,7 +24,7 @@ export default function Home() {
       <OurSpecialty />
       <RatingSection />
       <Portfolio />
-      <ClientCard />
+      <Clients />
       <PricingSection />
       <Testimonial />
       <FAQ />
