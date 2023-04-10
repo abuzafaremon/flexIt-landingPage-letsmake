@@ -7,27 +7,43 @@ const OfficeBranches = () => {
     <>
       <section
         id="location"
-        className="pt-20 pb-[200px]  dark:text-white dark:bg-slate-900"
+        className="py-20 dark:text-white dark:bg-slate-900"
       >
-        <div className="containerall container mx-auto px-5">
-          <div className="branches">
+        <div className="container mx-auto px-5">
+          <div>
             <h1
-              className="mb-14 text-2xl leading-[62px] text-center tracking-[1.5px] capitalize font-medium
-                  md:text-5xl
-                  "
+              className="mb-14
+              text-2xl
+              text-center
+              tracking-[1.5px]
+              capitalize
+              font-medium
+              md:text-5xl"
             >
               Our offices around the world
             </h1>
             {/* box div start */}
             <div
-              className="grid grid-cols-1 items-center gap-6
-                  lg:grid-cols-3
-                  md:grid-cols-2
-                  "
+              className="grid
+              items-center
+              gap-6
+              grid-cols-1
+              md:grid-cols-2
+              lg:grid-cols-3"
             >
               {/* box 1 */}
-              <div className="rounded-[0px_0px_8px_8px] border border-t-4 border-[#09AFF4]  p-[33px_17px]">
-                <h1 className="text-2xl font-medium leading-[29px] capitalize">
+              <div
+                className="rounded-[0px_0px_8px_8px]
+                border
+                border-t-4
+                border-[#09AFF4]
+                p-[33px_17px]"
+              >
+                <h1
+                  className="text-2xl
+                  font-medium
+                  capitalize"
+                >
                   New York
                 </h1>
                 <hr className="w-16 h-[2px] bg-[#09AFF4] mt-2 mb-8" />
@@ -60,8 +76,18 @@ const OfficeBranches = () => {
               {/* box 1 */}
 
               {/* box 2 */}
-              <div className="rounded-[0px_0px_8px_8px] border border-t-4 border-[#09AFF4]  p-[33px_17px]">
-                <h1 className="text-2xl font-medium leading-[29px] capitalize">
+              <div
+                className="rounded-[0px_0px_8px_8px]
+                border
+                border-t-4
+                border-[#09AFF4]
+                p-[33px_17px]"
+              >
+                <h1
+                  className="text-2xl
+                  font-medium
+                  capitalize"
+                >
                   London
                 </h1>
                 <hr className="w-16 h-[2px] bg-[#09AFF4] mt-2 mb-8" />
@@ -94,8 +120,18 @@ const OfficeBranches = () => {
               {/* box 2 */}
 
               {/* box 3 */}
-              <div className="rounded-[0px_0px_8px_8px] border border-t-4 border-[#09AFF4]  p-[33px_17px]">
-                <h1 className="text-2xl font-medium leading-[29px] capitalize">
+              <div
+                className="rounded-[0px_0px_8px_8px]
+                border
+                border-t-4
+                border-[#09AFF4]
+                p-[33px_17px]"
+              >
+                <h1
+                  className="text-2xl
+                  font-medium
+                  capitalize"
+                >
                   Tokio
                 </h1>
                 <hr className="w-16 h-[2px] bg-[#09AFF4] mt-2 mb-8" />

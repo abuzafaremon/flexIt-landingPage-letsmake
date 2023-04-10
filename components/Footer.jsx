@@ -1,5 +1,3 @@
-import React from "react";
-
 import logo from "../assets/images/FooterImg/logo-colored.png.png";
 import message from "../assets/images/FooterImg/envelop.png";
 import location from "../assets/images/FooterImg/location.png";
@@ -13,19 +11,26 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <section className='pt-16 pb-2 bg-[#24153B] bg-[url("../assets/images/FooterImg/footer-bg.png")]'>
-        <div className="containerall container mx-auto px-5">
-          <div className="footer">
+      <section
+        className='pt-16
+        pb-2
+        bg-[#24153B]
+        bg-[url("../assets/images/FooterImg/footer-bg.png")]'
+      >
+        <div className="container mx-auto px-5">
+          <div>
             <div
-              className="grid grid-cols-[repeat(2,_auto)] items-start justify-between
-                  lg:flex
-                  "
+              className="grid
+              grid-cols-[repeat(2,_auto)]
+              items-start
+              justify-between
+              lg:flex"
             >
               {/* left side start */}
               <div className="px-3 pb-8 lg:w-2/5">
-                <Image className="mb-[26px]" src={logo} alt="logo" />
+                <Image width={80} className="mb-6" src={logo} alt="logo" />
 
-                <p className="text-white mb-[27px]">
+                <p className="text-white mb-6">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Voluptatibus facere modi possimus dignissimos, aliquam nobis
                   eaque? Voluptatem magnam quisquam rem.
@@ -88,28 +93,28 @@ const Footer = () => {
 
               {/* Last div */}
               <div className="text-white">
-                <h1 className="text-xl font-semibold leading-6 mb-7">
+                <h1 className="text-xl font-semibold mb-7">
                   Contact Information
                 </h1>
 
-                {/* contacs */}
+                {/* contacts */}
                 <div>
                   {/* 1 */}
                   <div className="flex items-center gap-2 mb-6">
                     <Image src={message} alt="message" />
-                    <code>example@support.com</code>
+                    <p>example@support.com</p>
                   </div>
 
                   {/* 2 */}
                   <div className="flex items-center gap-2 mb-6">
                     <Image src={location} alt="location" />
-                    <p>5 Xyz st., Abc, alexandria, egypt.</p>
+                    <address>5 Xyz st., Abc, alexandria, egypt.</address>
                   </div>
 
                   {/* 3 */}
                   <div className="flex items-center gap-2 mb-6">
                     <Image src={phone} alt="phone" />
-                    <code>+20123456789</code>
+                    <p>+20123456789</p>
                   </div>
                 </div>
 
@@ -137,7 +142,7 @@ const Footer = () => {
 
             {/* last footer */}
             <div className="text-white flex items-center justify-between mt-16">
-              <p>&copy; 2023 Created by: Asraful Alam</p>
+              <p>&copy; 2023 | Zafar Emon | All Rights Reserved</p>
 
               <div className="flex items-center gap-3">
                 <p>Terms of Use</p>
