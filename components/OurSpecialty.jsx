@@ -3,7 +3,7 @@ import working from "../assets/images/CustomerWorkingImg/working.png";
 import vertorUnderline from "../assets/images/CustomerWorkingImg/Vector.png";
 import Image from "next/image";
 
-const CustomersWorking = () => {
+const OurSpecialty = () => {
   return (
     <>
       <section className="pb-[100px] dark:bg-slate-900 dark:text-white">
@@ -121,4 +121,4 @@ const CustomersWorking = () => {
   );
 };
 
-export default CustomersWorking;
+export default OurSpecialty;

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import leftImg from "../assets/images/askQuesImg/faq-illustration.png.png";
 
-const AskQues = () => {
+const FAQ = () => {
   return (
     <>
       <section id="faq" className="py-20 dark:text-white dark:bg-slate-900">
@@ -67,4 +67,4 @@ const AskQues = () => {
   );
 };
 
-export default AskQues;
+export default FAQ;

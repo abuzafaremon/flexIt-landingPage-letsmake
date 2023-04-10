@@ -66,7 +66,7 @@ const ServicesOffer = () => {
                 </p>
                 <a
                   className="text-[#09AFF4] text-base font-semibold capitalize"
-                  href="@"
+                  href="#"
                 >
                   Read More &rarr;
                 </a>
@@ -83,7 +83,7 @@ const ServicesOffer = () => {
                 </p>
                 <a
                   className="text-[#09AFF4] text-base font-semibold capitalize"
-                  href="@"
+                  href="#"
                 >
                   Read More &rarr;
                 </a>
@@ -100,7 +100,7 @@ const ServicesOffer = () => {
                 </p>
                 <a
                   className="text-[#09AFF4] text-base font-semibold capitalize"
-                  href="@"
+                  href="#"
                 >
                   Read More &rarr;
                 </a>
@@ -117,7 +117,7 @@ const ServicesOffer = () => {
                 </p>
                 <a
                   className="text-[#09AFF4] text-base font-semibold capitalize"
-                  href="@"
+                  href="#"
                 >
                   Read More &rarr;
                 </a>
@@ -134,7 +134,7 @@ const ServicesOffer = () => {
                 </p>
                 <a
                   className="text-[#09AFF4] text-base font-semibold capitalize"
-                  href="@"
+                  href="#"
                 >
                   Read More &rarr;
                 </a>
@@ -151,7 +151,7 @@ const ServicesOffer = () => {
                 </p>
                 <a
                   className="text-[#09AFF4] text-base font-semibold capitalize"
-                  href="@"
+                  href="#"
                 >
                   Read More &rarr;
                 </a>

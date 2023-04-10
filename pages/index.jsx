@@ -1,14 +1,14 @@
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import ServicesOffer from "../components/ServicesOffer";
-import WWClient from "../components/WWClient";
-import CustomersWorking from "../components/CustomersWorking";
+import About from "../components/About";
+import OurSpecialty from "../components/OurSpecialty";
 import RatingSection from "../components/RatingSection";
 import Portfolio from "../components/Portfolio";
 import ClientCard from "../components/ClientCard";
 import PricingSection from "../components/PricingSection";
 import Testimonial from "../components/Testimonial";
-import AskQues from "../components/AskQues";
+import FAQ from "../components/FAQ";
 import News from "../components/News";
 import MessageArea from "../components/MessageArea";
 import OfficeBranches from "../components/OfficeBranches";
@@ -20,14 +20,14 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <ServicesOffer />
-      <WWClient />
-      <CustomersWorking />
+      <About />
+      <OurSpecialty />
       <RatingSection />
       <Portfolio />
       <ClientCard />
       <PricingSection />
       <Testimonial />
-      <AskQues />
+      <FAQ />
       <News />
       <MessageArea />
       <OfficeBranches />

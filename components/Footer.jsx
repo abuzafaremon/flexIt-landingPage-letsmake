@@ -115,19 +115,19 @@ const Footer = () => {
 
                 {/* icons */}
                 <div className="flex items-center gap-[10px]">
-                  <a href="@">
+                  <a href="#">
                     <Image src={facebook} alt="facebook" />
                   </a>
 
-                  <a href="@">
+                  <a href="#">
                     <Image src={youtube} alt="youtube" />
                   </a>
 
-                  <a href="@">
+                  <a href="#">
                     <Image src={instagram} alt="instagram" />
                   </a>
 
-                  <a href="@">
+                  <a href="#">
                     <Image src={twitter} alt="twitter" />
                   </a>
                 </div>

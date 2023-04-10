@@ -97,7 +97,7 @@ const News = () => {
                     elit.Iure nulla dolorem, voluptates molestiae
                   </p>
 
-                  <a className="text-[#09AFF4]" href="@">
+                  <a className="text-[#09AFF4]" href="#">
                     Read More &rarr;
                   </a>
                 </div>
@@ -157,7 +157,7 @@ const News = () => {
                     elit.Iure nulla dolorem, voluptates molestiae
                   </p>
 
-                  <a className="text-[#09AFF4]" href="@">
+                  <a className="text-[#09AFF4]" href="#">
                     Read More &rarr;
                   </a>
                 </div>
@@ -217,7 +217,7 @@ const News = () => {
                     elit.Iure nulla dolorem, voluptates molestiae
                   </p>
 
-                  <a className="text-[#09AFF4]" href="@">
+                  <a className="text-[#09AFF4]" href="#">
                     Read More &rarr;
                   </a>
                 </div>

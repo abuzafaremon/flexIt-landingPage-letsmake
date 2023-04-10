@@ -8,7 +8,7 @@ import support from "../assets/images/WWClientImg/Support.png";
 import signature from "../assets/images/WWClientImg/div.signature.png";
 import Image from "next/image";
 
-const WWClient = () => {
+const About = () => {
   return (
     <>
       <section id="about" className="pb-24 dark:bg-slate-900 dark:text-white">
@@ -128,4 +128,4 @@ const WWClient = () => {
   );
 };
 
-export default WWClient;
+export default About;

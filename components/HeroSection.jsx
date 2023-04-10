@@ -15,48 +15,45 @@ const HeroSection = () => {
         className="bg-[url('../assets/images/heroImg/Herobg.png')] bg-cover bg-no-repeat bg-center w-full pb-20"
       >
         <div className='bg-[url("/src/images/heroImg/bgTop.png")] w-full h-full'>
-          <div className="containerall container mx-auto p-5">
-            <div className="hero_div flex flex-col h-full mt-[80px]">
+          <div className="container mx-auto p-5">
+            <div className="flex flex-col h-full mt-[80px]">
               {/* icon div start */}
-              <div className="flex gap-8 mb-9">
-                <a href="@">
-                  <FaFacebookF className="text-white" />
+              <div className="flex gap-8 mb-9 text-white">
+                <a href="#">
+                  <FaFacebookF />
                 </a>
-                <a href="@">
-                  <FaYoutube className="text-white" />
+                <a href="#">
+                  <FaYoutube />
                 </a>
-                <a href="@">
-                  <FaInstagram className="text-white" />
+                <a href="#">
+                  <FaInstagram />
                 </a>
-                <a href="@">
-                  <FaTwitter className="text-white" />
+                <a href="#">
+                  <FaTwitter />
                 </a>
               </div>
               {/* icon div end  */}
 
               {/* text side start */}
               <div>
-                <h1
+                <div
                   className="
                         text-xl
-                        xl:text-[56px]
-                        lg:text-[56px]
-                        md:text-[56px]
                         sm:text-2xl
+                        md:text-[56px]
                         capitalize font-bold text-white
                         "
                 >
-                  Providing the best
+                  <span>Providing the best</span>
                   <div className="flex items-center gap-5 mt-4">
-                    service & IT
+                    <span>service & IT</span>
                     <div>
                       <Image
                         className="
                                     w-[87px]
-                                    xl:w-[250px]
-                                    lg:w-[220px]
                                     md:w-52
-                                    sm:text-2xl
+                                    lg:w-[220px]
+                                    xl:w-[250px]
                                     "
                         src={solutions}
                         alt="solutions"
@@ -64,19 +61,18 @@ const HeroSection = () => {
                       <Image
                         className="
                                     w-[87px]
-                                    xl:w-[250px]
-                                    lg:w-[220px]
                                     md:w-52
-                                    sm:text-2xl
+                                    lg:w-[220px]
+                                    xl:w-[250px]
                                     "
                         src={VectorUnderline}
                         alt="underline"
                       />
                     </div>
                   </div>
-                </h1>
+                </div>
 
-                <p className="sm:w-[500px] text-xl leading-7 font-normal text-white mt-[30px]">
+                <p className="sm:w-[500px] text-xl leading-7 text-white mt-8">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
                   architecto dolorum inventore totam adipisci
                 </p>
@@ -85,11 +81,11 @@ const HeroSection = () => {
 
               {/* button div start */}
               <div className="mt-[30px] flex items-center gap-6">
-                <button className="text-[#09AFF4] text-xl border-2 border-solid border-[#09AFF4] p-[14px_40px] bg-[rgba(255,255,255,0.002)]shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-[#09AFF4] hover:text-white">
+                <button className="text-[#09AFF4] text-xl border-2 border-[#09AFF4] p-[14px_40px] rounded-[4px_16px] hover:bg-[#09AFF4] hover:text-white">
                   Start Now
                 </button>
 
-                <button className="text-[#09AFF4] text-xl border-2 border-solid border-[#09AFF4] p-[14px_40px] bg-[rgba(255,255,255,0.002)]shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-[#09AFF4] hover:text-white">
+                <button className="text-[#09AFF4] text-xl border-2 border-[#09AFF4] p-[14px_40px] rounded-[4px_16px] hover:bg-[#09AFF4] hover:text-white">
                   Contact Us
                 </button>
               </div>

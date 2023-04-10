@@ -42,27 +42,27 @@ const Portfolio = () => {
               <div className="mb-4 mt-12">
                 <ul className="flex justify-start items-center gap-6">
                   <li>
-                    <a className="active:text-[#09AFF4]" href="@">
+                    <a className="active:text-[#09AFF4]" href="#">
                       All
                     </a>
                   </li>
                   <li>
-                    <a className="active:text-[#09AFF4]" href="@">
+                    <a className="active:text-[#09AFF4]" href="#">
                       Mobile
                     </a>
                   </li>
                   <li>
-                    <a className="active:text-[#09AFF4]" href="@">
+                    <a className="active:text-[#09AFF4]" href="#">
                       Web Apps
                     </a>
                   </li>
                   <li>
-                    <a className="active:text-[#09AFF4]" href="@">
+                    <a className="active:text-[#09AFF4]" href="#">
                       Data Analysis
                     </a>
                   </li>
                   <li>
-                    <a className="active:text-[#09AFF4]" href="@">
+                    <a className="active:text-[#09AFF4]" href="#">
                       Hosting
                     </a>
                   </li>
