@@ -44,7 +44,7 @@ const ServicesOffer = () => {
                   "
             >
               {/* card */}
-              <div className="bg-[#ffffff01] border border-solid border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
+              <div className="bg-[#ffffff01] border  border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
                 <Image src={webDev} alt="webDev" />
                 <h3 className="text-2xl mt-5 mb-[14px] font-semibold leading-[29px]">
                   Web Development
@@ -58,7 +58,7 @@ const ServicesOffer = () => {
                 </a>
               </div>
               {/* card */}
-              <div className="bg-[#ffffff01] border border-solid border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
+              <div className="bg-[#ffffff01] border  border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
                 <Image src={digitalMarketing} alt="digitalMarketing" />
                 <h3 className="text-2xl mt-5 mb-[14px] font-semibold leading-[29px]">
                   Web Development
@@ -72,7 +72,7 @@ const ServicesOffer = () => {
                 </a>
               </div>
               {/* card */}
-              <div className="bg-[#ffffff01] border border-solid border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
+              <div className="bg-[#ffffff01] border  border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
                 <Image src={SaaSProduct} alt="SaaSProduct" />
                 <h3 className="text-2xl mt-5 mb-[14px] font-semibold leading-[29px]">
                   Web Development
@@ -86,7 +86,7 @@ const ServicesOffer = () => {
                 </a>
               </div>
               {/* card */}
-              <div className="bg-[#ffffff01] border border-solid border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
+              <div className="bg-[#ffffff01] border  border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
                 <Image src={appsDev} alt="appsDev" />
                 <h3 className="text-2xl mt-5 mb-[14px] font-semibold leading-[29px]">
                   Web Development
@@ -100,7 +100,7 @@ const ServicesOffer = () => {
                 </a>
               </div>
               {/* card */}
-              <div className="bg-[#ffffff01] border border-solid border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
+              <div className="bg-[#ffffff01] border  border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
                 <Image src={SEO} alt="seo" />
                 <h3 className="text-2xl mt-5 mb-[14px] font-semibold leading-[29px]">
                   Web Development
@@ -114,7 +114,7 @@ const ServicesOffer = () => {
                 </a>
               </div>
               {/* card */}
-              <div className="bg-[#ffffff01] border border-solid border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
+              <div className="bg-[#ffffff01] border  border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
                 <Image src={dateAnalysis} alt="dateAnalysis" />
                 <h3 className="text-2xl mt-5 mb-[14px] font-semibold leading-[29px]">
                   Web Development

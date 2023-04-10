@@ -20,7 +20,7 @@ const About = () => {
             {/* text side start */}
             <div>
               <div>
-                <p className="mb-5 text-[#09AFF4] text-base font-semibold uppercase">
+                <p className="mb-5 text-[#09AFF4]  font-semibold uppercase">
                   ● About Us ●
                 </p>
               </div>
@@ -101,7 +101,7 @@ const About = () => {
 
                 {/* signature start */}
                 <div>
-                  <button className="text-[#09AFF4] text-xl border-2 border-solid border-[#09AFF4] p-[14px_40px] rounded-[4px_16px] hover:bg-[#09AFF4] hover:text-white">
+                  <button className="text-[#09AFF4] text-xl border-2  border-[#09AFF4] p-[14px_40px] rounded-[4px_16px] hover:bg-[#09AFF4] hover:text-white">
                     Get in Touch
                   </button>
                 </div>

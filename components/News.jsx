@@ -6,32 +6,40 @@ import Image from "next/image";
 const News = () => {
   return (
     <>
-      <section className="py-20  dark:text-white dark:bg-slate-900">
-        <div className="containerall container mx-auto px-5">
-          <div className="news">
+      <section className="py-20 dark:text-white dark:bg-slate-900">
+        <div className="container mx-auto px-5">
+          <div>
             {/* head part start */}
             <div
-              className="grid grid-cols-1 justify-between items-center
-                  md:grid-cols-[repeat(2,_auto)]
-                  "
+              className="grid
+              grid-cols-1
+              justify-between
+              items-center
+              md:grid-cols-[repeat(2,_auto)]"
             >
               <div>
-                <p className="text-[#09AFF4] text-base font-semibold leading-6 uppercase mb-2">
+                <p
+                  className="text-[#09AFF4] 
+                  font-semibold
+                  uppercase
+                  mb-2"
+                >
                   ● Blog ●
                 </p>
 
                 <div className="mb-12">
-                  <h1 className="text-5xl capitalize font-medium mb-6">
+                  <h1
+                    className="text-5xl
+                    capitalize
+                    font-medium
+                    mb-6"
+                  >
                     Latest News
                   </h1>
                 </div>
               </div>
 
-              <button
-                className="mb-5 w-max text-[#09AFF4] text-xl border-2 border-solid border-[#09AFF4] p-[14px_40px] bg-[rgba(255,255,255,0.002)]shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-[#09AFF4] hover:text-white
-                     md:mb-0
-                     "
-              >
+              <button className="mb-5 w-max text-[#09AFF4] text-xl border-2 border-[#09AFF4] p-[14px_40px] shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-[#09AFF4] hover:text-white md:mb-0">
                 See All Posts &rarr;
               </button>
             </div>
@@ -39,17 +47,29 @@ const News = () => {
 
             {/* cards start */}
             <div
-              className="grid grid-cols-1 justify-between items-start gap-6
-                  lg:grid-cols-3
-                  md:grid-cols-2
-                  "
+              className="grid
+              justify-between
+              items-start
+              gap-6
+              grid-cols-1
+              md:grid-cols-2
+              lg:grid-cols-3"
             >
               {/* card 1*/}
-              <div className="rounded bg-[#DAF3FD] dark:bg-slate-900">
+              <div
+                className="rounded
+                bg-[#DAF3FD]
+                dark:bg-slate-900"
+              >
                 <Image className="w-full" src={img1} alt="news" />
 
-                <div className=" p-4">
-                  <div className="flex justify-start items-center gap-3">
+                <div className="p-4">
+                  <div
+                    className="flex
+                    justify-start
+                    items-center
+                    gap-3"
+                  >
                     <div className="flex items-center gap-[10px]">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -88,11 +108,18 @@ const News = () => {
                     </div>
                   </div>
 
-                  <h1 className="mt-2 mb-2 text-2xl font-semibold leading-9 capitalize">
+                  <h1
+                    className="mt-2
+                    mb-2
+                    text-2xl
+                    font-semibold
+                    leading-9
+                    capitalize"
+                  >
                     How litespeed technology works to speed up your site.
                   </h1>
 
-                  <p className="mb-4 text-base leading-6 opacity-75">
+                  <p className="mb-4  leading-6 opacity-75">
                     Lorem ipsum dolor sit, amet consectetur adipisicing
                     elit.Iure nulla dolorem, voluptates molestiae
                   </p>
@@ -105,11 +132,20 @@ const News = () => {
               {/* card */}
 
               {/* card 2 */}
-              <div className="rounded bg-[#DAF3FD] dark:bg-slate-900">
+              <div
+                className="rounded
+                bg-[#DAF3FD]
+                dark:bg-slate-900"
+              >
                 <Image className="w-full" src={img2} alt="news" />
 
-                <div className=" p-4">
-                  <div className="flex justify-start items-center gap-3">
+                <div className="p-4">
+                  <div
+                    className="flex
+                    justify-start
+                    items-center
+                    gap-3"
+                  >
                     <div className="flex items-center gap-[10px]">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -148,11 +184,18 @@ const News = () => {
                     </div>
                   </div>
 
-                  <h1 className="mt-2 mb-2 text-2xl font-semibold leading-9 capitalize">
+                  <h1
+                    className="mt-2
+                    mb-2
+                    text-2xl
+                    font-semibold
+                    leading-9
+                    capitalize"
+                  >
                     give your website a new look and feel with themes
                   </h1>
 
-                  <p className="mb-4 text-base leading-6 opacity-75">
+                  <p className="mb-4  leading-6 opacity-75">
                     Lorem ipsum dolor sit, amet consectetur adipisicing
                     elit.Iure nulla dolorem, voluptates molestiae
                   </p>
@@ -165,10 +208,14 @@ const News = () => {
               {/* card */}
 
               {/* card 3 */}
-              <div className="rounded bg-[#DAF3FD] dark:bg-slate-900">
+              <div
+                className="rounded
+                bg-[#DAF3FD]
+                dark:bg-slate-900"
+              >
                 <Image className="w-full" src={img3} alt="news" />
 
-                <div className=" p-4">
+                <div className="p-4">
                   <div className="flex justify-start items-center gap-3 mb-2">
                     <div className="flex items-center gap-[10px]">
                       <svg
@@ -208,11 +255,18 @@ const News = () => {
                     </div>
                   </div>
 
-                  <h1 className="mt-2 mb-2 text-2xl font-semibold leading-9 capitalize">
+                  <h1
+                    className="mt-2
+                    mb-2
+                    text-2xl
+                    font-semibold
+                    leading-9
+                    capitalize"
+                  >
                     the role of domain names in SEO world explained
                   </h1>
 
-                  <p className="text-base leading-6 opacity-75 mb-4">
+                  <p className=" leading-6 opacity-75 mb-4">
                     Lorem ipsum dolor sit, amet consectetur adipisicing
                     elit.Iure nulla dolorem, voluptates molestiae
                   </p>

@@ -21,32 +21,26 @@ const Navbar = () => {
                      lg:flex lg:justify-between lg:items-center" //TODO: same class for dif device
             >
               <li>
-                <a
-                  className="text-base text-white font-medium capitalize"
-                  href="#hero"
-                >
+                <a className=" text-white font-medium capitalize" href="#hero">
                   Home
                 </a>
               </li>
               <li>
                 <a
-                  className="text-base text-white font-medium capitalize"
+                  className=" text-white font-medium capitalize"
                   href="#services"
                 >
                   Service
                 </a>
               </li>
               <li>
-                <a
-                  className="text-base text-white font-medium capitalize"
-                  href="#about"
-                >
+                <a className=" text-white font-medium capitalize" href="#about">
                   About
                 </a>
               </li>
               <li>
                 <a
-                  className="text-base text-white font-medium capitalize"
+                  className=" text-white font-medium capitalize"
                   href="#portfolio"
                 >
                   Portfolio
@@ -54,7 +48,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  className="text-base text-white font-medium capitalize"
+                  className=" text-white font-medium capitalize"
                   href="#pricing"
                 >
                   Pricing
@@ -62,23 +56,20 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  className="text-base text-white font-medium capitalize"
+                  className=" text-white font-medium capitalize"
                   href="#testimonial"
                 >
                   Testimonial
                 </a>
               </li>
               <li>
-                <a
-                  className="text-base text-white font-medium capitalize"
-                  href="#faq"
-                >
+                <a className=" text-white font-medium capitalize" href="#faq">
                   FAQ
                 </a>
               </li>
               <li>
                 <a
-                  className="text-base text-white font-medium capitalize"
+                  className=" text-white font-medium capitalize"
                   href="#contact"
                 >
                   Contact Us

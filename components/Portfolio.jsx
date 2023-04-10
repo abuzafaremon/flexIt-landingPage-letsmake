@@ -47,7 +47,7 @@ const Portfolio = () => {
                   className="text-[#09AFF4] 
                   text-xl 
                   border-2 
-                  border-solid 
+                   
                   border-[#09AFF4] 
                   p-[14px_40px] 
                   rounded-[4px_16px] 

@@ -60,7 +60,7 @@ const Testimonial = () => {
             </div>
 
             <h3 className="text-xl leading-7 capitalize mb-1">Fouad Osman</h3>
-            <small className="text-base capitalize opacity-75">Officer</small>
+            <small className=" capitalize opacity-75">Officer</small>
           </div>
         </div>
       </section>

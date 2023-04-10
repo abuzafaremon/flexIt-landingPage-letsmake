@@ -26,7 +26,7 @@ const OfficeBranches = () => {
                   "
             >
               {/* box 1 */}
-              <div className="rounded-[0px_0px_8px_8px] border border-t-4 border-[#09AFF4] border-solid p-[33px_17px]">
+              <div className="rounded-[0px_0px_8px_8px] border border-t-4 border-[#09AFF4]  p-[33px_17px]">
                 <h1 className="text-2xl font-medium leading-[29px] capitalize">
                   New York
                 </h1>
@@ -60,7 +60,7 @@ const OfficeBranches = () => {
               {/* box 1 */}
 
               {/* box 2 */}
-              <div className="rounded-[0px_0px_8px_8px] border border-t-4 border-[#09AFF4] border-solid p-[33px_17px]">
+              <div className="rounded-[0px_0px_8px_8px] border border-t-4 border-[#09AFF4]  p-[33px_17px]">
                 <h1 className="text-2xl font-medium leading-[29px] capitalize">
                   London
                 </h1>
@@ -94,7 +94,7 @@ const OfficeBranches = () => {
               {/* box 2 */}
 
               {/* box 3 */}
-              <div className="rounded-[0px_0px_8px_8px] border border-t-4 border-[#09AFF4] border-solid p-[33px_17px]">
+              <div className="rounded-[0px_0px_8px_8px] border border-t-4 border-[#09AFF4]  p-[33px_17px]">
                 <h1 className="text-2xl font-medium leading-[29px] capitalize">
                   Tokio
                 </h1>

@@ -129,7 +129,7 @@ const PricingSection = () => {
                 </div>
 
                 <div>
-                  <button className="bg-[#09AFF4] text-xl border-2 border-solid border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-white hover:text-[#09aff4]">
+                  <button className="bg-[#09AFF4] text-xl border-2  border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-white hover:text-[#09aff4]">
                     See All Plans
                   </button>
                 </div>
@@ -187,7 +187,7 @@ const PricingSection = () => {
                 </div>
 
                 <div>
-                  <button className="bg-[#09AFF4] text-xl border-2 border-solid border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-white hover:text-[#09aff4]">
+                  <button className="bg-[#09AFF4] text-xl border-2  border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-white hover:text-[#09aff4]">
                     See All Plans
                   </button>
                 </div>
@@ -241,7 +241,7 @@ const PricingSection = () => {
                 </div>
 
                 <div>
-                  <button className="bg-[#09AFF4] text-xl border-2 border-solid border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-white hover:text-[#09aff4]">
+                  <button className="bg-[#09AFF4] text-xl border-2  border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-white hover:text-[#09aff4]">
                     See All Plans
                   </button>
                 </div>
@@ -299,7 +299,7 @@ const PricingSection = () => {
                 </div>
 
                 <div>
-                  <button className="bg-[#09AFF4] text-xl border-2 border-solid border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-white hover:text-[#09aff4]">
+                  <button className="bg-[#09AFF4] text-xl border-2  border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-white hover:text-[#09aff4]">
                     See All Plans
                   </button>
                 </div>
