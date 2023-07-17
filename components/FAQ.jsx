@@ -1,8 +1,9 @@
 import Image from "next/image";
 
-import leftImg from "../assets/images/askQuesImg/faq-illustration.png.png";
-
 const FAQ = () => {
+  const images = {
+    leftImg: "/assets/images/askQuesImg/faq-illustration.png.png",
+  };
   return (
     <>
       <section id="faq" className="py-20 dark:text-white dark:bg-slate-900">
@@ -16,13 +17,18 @@ const FAQ = () => {
             md:grid-cols-2"
           >
             {/* image div start */}
-            <div>
-              <Image className="w-full" src={leftImg} alt="Computer home img" />
+            <div className="w-full">
+              <Image
+                src={images.leftImg}
+                width={600}
+                height={600}
+                alt="Computer home img"
+              />
             </div>
             {/* image div end */}
 
             {/* Question div start */}
-            <div>
+            <div className="w-full">
               <div className="mb-14">
                 <h5
                   className="uppercase

@@ -1,12 +1,14 @@
-import porfolio from "../assets/images/PortfolioImg/portfolio-6.png";
-import porfolio1 from "../assets/images/PortfolioImg/portfolio-1.png";
-import porfolio2 from "../assets/images/PortfolioImg/portfolio-2.png";
-import porfolio3 from "../assets/images/PortfolioImg/portfolio-3.png";
-import porfolio4 from "../assets/images/PortfolioImg/portfolio-4.png";
-import porfolio5 from "../assets/images/PortfolioImg/portfolio-5.png";
 import Image from "next/image";
 
 const Portfolio = () => {
+  const images = {
+    porfolio: "/assets/images/PortfolioImg/portfolio-6.png",
+    porfolio1: "/assets/images/PortfolioImg/portfolio-1.png",
+    porfolio2: "/assets/images/PortfolioImg/portfolio-2.png",
+    porfolio3: "/assets/images/PortfolioImg/portfolio-3.png",
+    porfolio4: "/assets/images/PortfolioImg/portfolio-4.png",
+    porfolio5: "/assets/images/PortfolioImg/portfolio-5.png",
+  };
   return (
     <>
       <section
@@ -100,14 +102,45 @@ const Portfolio = () => {
                 grid-cols-1 
                 sm:grid-cols-2
                 md:grid-cols-3
-                gap-2"
+                gap-2
+                justify-items-center"
               >
-                <Image src={porfolio} alt="portfolio" />
-                <Image src={porfolio1} alt="portfolio" />
-                <Image src={porfolio2} alt="portfolio" />
-                <Image src={porfolio3} alt="portfolio" />
-                <Image src={porfolio4} alt="portfolio" />
-                <Image src={porfolio5} alt="portfolio" />
+                <Image
+                  src={images.porfolio}
+                  width={500}
+                  height={500}
+                  alt="portfolio"
+                />
+                <Image
+                  src={images.porfolio1}
+                  width={500}
+                  height={500}
+                  alt="portfolio"
+                />
+                <Image
+                  src={images.porfolio2}
+                  width={500}
+                  height={500}
+                  alt="portfolio"
+                />
+                <Image
+                  src={images.porfolio3}
+                  width={500}
+                  height={500}
+                  alt="portfolio"
+                />
+                <Image
+                  src={images.porfolio4}
+                  width={500}
+                  height={500}
+                  alt="portfolio"
+                />
+                <Image
+                  src={images.porfolio5}
+                  width={500}
+                  height={500}
+                  alt="portfolio"
+                />
               </div>
               {/* images end */}
             </div>

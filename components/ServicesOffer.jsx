@@ -1,12 +1,14 @@
-import webDev from "../assets/images/ServiceOfferImg/webDev.png";
-import digitalMarketing from "../assets/images/ServiceOfferImg/digitalMarketing.png";
-import SaaSProduct from "../assets/images/ServiceOfferImg/SaaSProduct.png";
-import appsDev from "../assets/images/ServiceOfferImg/appsDev.png";
-import SEO from "../assets/images/ServiceOfferImg/seo.png";
-import dateAnalysis from "../assets/images/ServiceOfferImg/dateAnalysis.png";
 import Image from "next/image";
 
 const ServicesOffer = () => {
+  const images = {
+    webDev: "/assets/images/ServiceOfferImg/webDev.png",
+    digitalMarketing: "/assets/images/ServiceOfferImg/digitalMarketing.png",
+    SaaSProduct: "/assets/images/ServiceOfferImg/SaaSProduct.png",
+    appsDev: "/assets/images/ServiceOfferImg/appsDev.png",
+    SEO: "/assets/images/ServiceOfferImg/seo.png",
+    dateAnalysis: "/assets/images/ServiceOfferImg/dateAnalysis.png",
+  };
   return (
     <>
       <section
@@ -45,7 +47,12 @@ const ServicesOffer = () => {
             >
               {/* card */}
               <div className="bg-[#ffffff01] border  border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
-                <Image src={webDev} alt="webDev" />
+                <Image
+                  src={images.webDev}
+                  width={80}
+                  height={80}
+                  alt="webDev"
+                />
                 <h3 className="text-2xl mt-5 mb-[14px] font-semibold leading-[29px]">
                   Web Development
                 </h3>
@@ -59,7 +66,12 @@ const ServicesOffer = () => {
               </div>
               {/* card */}
               <div className="bg-[#ffffff01] border  border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
-                <Image src={digitalMarketing} alt="digitalMarketing" />
+                <Image
+                  src={images.digitalMarketing}
+                  width={80}
+                  height={80}
+                  alt="digitalMarketing"
+                />
                 <h3 className="text-2xl mt-5 mb-[14px] font-semibold leading-[29px]">
                   Web Development
                 </h3>
@@ -73,7 +85,12 @@ const ServicesOffer = () => {
               </div>
               {/* card */}
               <div className="bg-[#ffffff01] border  border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
-                <Image src={SaaSProduct} alt="SaaSProduct" />
+                <Image
+                  src={images.SaaSProduct}
+                  width={80}
+                  height={80}
+                  alt="SaaSProduct"
+                />
                 <h3 className="text-2xl mt-5 mb-[14px] font-semibold leading-[29px]">
                   Web Development
                 </h3>
@@ -87,7 +104,12 @@ const ServicesOffer = () => {
               </div>
               {/* card */}
               <div className="bg-[#ffffff01] border  border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
-                <Image src={appsDev} alt="appsDev" />
+                <Image
+                  src={images.appsDev}
+                  width={80}
+                  height={80}
+                  alt="appsDev"
+                />
                 <h3 className="text-2xl mt-5 mb-[14px] font-semibold leading-[29px]">
                   Web Development
                 </h3>
@@ -101,7 +123,7 @@ const ServicesOffer = () => {
               </div>
               {/* card */}
               <div className="bg-[#ffffff01] border  border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
-                <Image src={SEO} alt="seo" />
+                <Image src={images.SEO} width={80} height={80} alt="seo" />
                 <h3 className="text-2xl mt-5 mb-[14px] font-semibold leading-[29px]">
                   Web Development
                 </h3>
@@ -115,7 +137,12 @@ const ServicesOffer = () => {
               </div>
               {/* card */}
               <div className="bg-[#ffffff01] border  border-[#09aff4] shadow-[0px_0px_10px_rgba(6,9,34,0.1)] rounded-lg p-[30px]">
-                <Image src={dateAnalysis} alt="dateAnalysis" />
+                <Image
+                  src={images.dateAnalysis}
+                  width={80}
+                  height={80}
+                  alt="dateAnalysis"
+                />
                 <h3 className="text-2xl mt-5 mb-[14px] font-semibold leading-[29px]">
                   Web Development
                 </h3>

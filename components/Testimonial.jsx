@@ -1,8 +1,9 @@
 import Image from "next/image";
 
-import profileImg from "../assets/images/TestimonialImg/person-1.png";
-
 const Testimonial = () => {
+  const images = {
+    profileImg: "/assets/images/TestimonialImg/person-1.png",
+  };
   return (
     <>
       <section
@@ -33,7 +34,9 @@ const Testimonial = () => {
             </h1>
             <Image
               className="inline-block mb-12"
-              src={profileImg}
+              src={images.profileImg}
+              width={72}
+              height={72}
               alt="profileImg"
             />
 
@@ -41,7 +44,10 @@ const Testimonial = () => {
               className="flex
               justify-center
               items-center
-              gap-24
+              gap-2
+              md:gap-4
+              lg:gap-8
+              xl:gap-10
               mb-[35px]"
             >
               <span className="bg-gray-600 p-[14px]">&lt;</span>

@@ -1,9 +1,11 @@
-import leftImage from "../assets/images/CustomerWorkingImg/photo-2.png.png";
-import working from "../assets/images/CustomerWorkingImg/working.png";
-import vectorUnderline from "../assets/images/CustomerWorkingImg/Vector.png";
 import Image from "next/image";
 
 const OurSpecialty = () => {
+  const images = {
+    leftImage: "/assets/images/CustomerWorkingImg/photo-2.png.png",
+    working: "/assets/images/CustomerWorkingImg/working.png",
+    vectorUnderline: "/assets/images/CustomerWorkingImg/Vector.png",
+  };
   return (
     <>
       <section className="py-20 dark:bg-slate-900 dark:text-white">
@@ -13,13 +15,19 @@ const OurSpecialty = () => {
                md:flex-row"
           >
             {/* image div start */}
-            <div>
-              <Image className="w-full" src={leftImage} alt="leftImage" />
+            <div className="w-full order-last md:order-first">
+              <Image
+                className="w-full"
+                src={images.leftImage}
+                width={500}
+                height={500}
+                alt="leftImage"
+              />
             </div>
             {/* image div end */}
 
             {/* Text div start */}
-            <div>
+            <div className="w-full order-first md:order-last">
               <div>
                 <div>
                   <p className="text-[#09AFF4] font-semibold uppercase mb-3">
@@ -41,12 +49,16 @@ const OurSpecialty = () => {
                       <div className="md:mt-5">
                         <Image
                           className="w-28 md:w-full"
-                          src={working}
+                          src={images.working}
+                          width={200}
+                          height={200}
                           alt="working"
                         />
                         <Image
                           className="w-28 md:w-full"
-                          src={vectorUnderline}
+                          src={images.vectorUnderline}
+                          width={200}
+                          height={200}
                           alt="vectorUnderline"
                         />
                       </div>

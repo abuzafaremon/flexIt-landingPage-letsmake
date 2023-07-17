@@ -1,16 +1,17 @@
 import Image from "next/image";
 
-import finished from "../assets/images/RatingImg/statistics.png";
-import jobs from "../assets/images/RatingImg/created-jobs.png";
-import customer from "../assets/images/RatingImg/customer.png";
-import experience from "../assets/images/RatingImg/experience.png";
-
 const RatingSection = () => {
+  const images = {
+    finished: "/assets/images/RatingImg/statistics.png",
+    jobs: "/assets/images/RatingImg/created-jobs.png",
+    customer: "/assets/images/RatingImg/customer.png",
+    experience: "/assets/images/RatingImg/experience.png",
+  };
   return (
     <>
       <section
         className="bg-[#07102E] 
-        bg-[url('../assets/images/RatingImg/ratting-bg.png')] 
+        bg-[url('/assets/images/RatingImg/ratting-bg.png')] 
         bg-center 
         bg-cover 
         bg-no-repeat 
@@ -36,7 +37,12 @@ const RatingSection = () => {
               rounded-[0_0_8px_8px]"
             >
               <div className="flex justify-center">
-                <Image src={finished} alt="finished" />
+                <Image
+                  src={images.finished}
+                  width={80}
+                  height={80}
+                  alt="finished"
+                />
               </div>
               <strong
                 className="text-5xl 
@@ -57,7 +63,7 @@ const RatingSection = () => {
               rounded-[0_0_8px_8px]"
             >
               <div className="flex justify-center">
-                <Image src={jobs} alt="jobs" />
+                <Image src={images.jobs} width={80} height={80} alt="jobs" />
               </div>
               <strong
                 className="text-5xl 
@@ -78,14 +84,19 @@ const RatingSection = () => {
               rounded-[0_0_8px_8px]"
             >
               <div className="flex justify-center">
-                <Image src={customer} alt="customer" />
+                <Image
+                  src={images.customer}
+                  width={80}
+                  height={80}
+                  alt="customer"
+                />
               </div>
               <strong
                 className="text-5xl 
                 font-semibold 
                 my-2"
               >
-                200+
+                80+
               </strong>
               <p className="text-xl">Happy Customers</p>
             </div>
@@ -100,7 +111,12 @@ const RatingSection = () => {
               rounded-[0_0_8px_8px]"
             >
               <div className="flex justify-center">
-                <Image src={experience} alt="experience" />
+                <Image
+                  src={images.experience}
+                  width={80}
+                  height={80}
+                  alt="experience"
+                />
               </div>
               <strong
                 className="text-5xl 

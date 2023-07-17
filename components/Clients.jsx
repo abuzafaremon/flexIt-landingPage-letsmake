@@ -1,12 +1,14 @@
-import clientCard from "../assets/images/ClientCard/div.client-logo.png";
-import clientCard1 from "../assets/images/ClientCard/div.client-logo-1.png";
-import clientCard2 from "../assets/images/ClientCard/div.client-logo-2.png";
-import clientCard3 from "../assets/images/ClientCard/div.client-logo-3.png";
-import clientCard4 from "../assets/images/ClientCard/div.client-logo-4.png";
-import clientCard5 from "../assets/images/ClientCard/div.client-logo-5.png";
 import Image from "next/image";
 
 const Clients = () => {
+  const images = {
+    clientCard: "/assets/images/ClientCard/div.client-logo.png",
+    clientCard1: "/assets/images/ClientCard/div.client-logo-1.png",
+    clientCard2: "/assets/images/ClientCard/div.client-logo-2.png",
+    clientCard3: "/assets/images/ClientCard/div.client-logo-3.png",
+    clientCard4: "/assets/images/ClientCard/div.client-logo-4.png",
+    clientCard5: "/assets/images/ClientCard/div.client-logo-5.png",
+  };
   return (
     <>
       <section
@@ -43,30 +45,40 @@ const Clients = () => {
                   items-center
                   xl:flex"
             >
-              <Image width={190} src={clientCard} alt="Client companies Card" />
               <Image
                 width={190}
-                src={clientCard1}
+                height={190}
+                src={images.clientCard}
                 alt="Client companies Card"
               />
               <Image
                 width={190}
-                src={clientCard2}
+                height={190}
+                src={images.clientCard1}
                 alt="Client companies Card"
               />
               <Image
                 width={190}
-                src={clientCard3}
+                height={190}
+                src={images.clientCard2}
                 alt="Client companies Card"
               />
               <Image
                 width={190}
-                src={clientCard4}
+                height={190}
+                src={images.clientCard3}
                 alt="Client companies Card"
               />
               <Image
                 width={190}
-                src={clientCard5}
+                height={190}
+                src={images.clientCard4}
+                alt="Client companies Card"
+              />
+              <Image
+                width={190}
+                height={190}
+                src={images.clientCard5}
                 alt="Client companies Card"
               />
             </div>

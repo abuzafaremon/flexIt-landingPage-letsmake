@@ -1,10 +1,12 @@
-import card from "../assets/images/PricingPlanImg/free.png";
-import card1 from "../assets/images/PricingPlanImg/stander.png";
-import card2 from "../assets/images/PricingPlanImg/pro.png";
-import card3 from "../assets/images/PricingPlanImg/unlimited.png";
 import Image from "next/image";
 
 const PricingSection = () => {
+  const images = {
+    card: "/assets/images/PricingPlanImg/free.png",
+    card1: "/assets/images/PricingPlanImg/stander.png",
+    card2: "/assets/images/PricingPlanImg/pro.png",
+    card3: "/assets/images/PricingPlanImg/unlimited.png",
+  };
   return (
     <>
       <section id="pricing" className="dark:text-white dark:bg-slate-900">
@@ -89,9 +91,15 @@ const PricingSection = () => {
                 shadow-[1px_1px_10px_rgba(6,9,34,0.15)]rounded-[8px_8px_0px_0px]
                 text-center
                 hover:text-white 
-                hover:bg-[#09AFF4] transition"
+                hover:bg-[#09AFF4] transition group"
               >
-                <Image className="mb-5 inline-block" src={card} alt="free" />
+                <Image
+                  className="mb-5 inline-block"
+                  src={images.card}
+                  width={50}
+                  height={50}
+                  alt="free"
+                />
 
                 <h4
                   className="mb-[18px]
@@ -129,7 +137,7 @@ const PricingSection = () => {
                 </div>
 
                 <div>
-                  <button className="bg-[#09AFF4] text-xl border-2  border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-white hover:text-[#09aff4]">
+                  <button className="bg-[#09AFF4] text-xl border-2  border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] group-hover:bg-white group-hover:text-[#09aff4]">
                     See All Plans
                   </button>
                 </div>
@@ -143,11 +151,13 @@ const PricingSection = () => {
                 shadow-[1px_1px_10px_rgba(6,9,34,0.15)]rounded-[8px_8px_0px_0px]
                 text-center
                 hover:text-white 
-                hover:bg-[#09AFF4] transition"
+                hover:bg-[#09AFF4] transition group"
               >
                 <Image
                   className="mb-5 inline-block"
-                  src={card1}
+                  src={images.card1}
+                  width={50}
+                  height={50}
                   alt="stander"
                 />
 
@@ -187,7 +197,7 @@ const PricingSection = () => {
                 </div>
 
                 <div>
-                  <button className="bg-[#09AFF4] text-xl border-2  border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-white hover:text-[#09aff4]">
+                  <button className="bg-[#09AFF4] text-xl border-2  border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] group-hover:bg-white group-hover:text-[#09aff4]">
                     See All Plans
                   </button>
                 </div>
@@ -201,9 +211,15 @@ const PricingSection = () => {
                 shadow-[1px_1px_10px_rgba(6,9,34,0.15)]rounded-[8px_8px_0px_0px]
                 text-center
                 hover:text-white 
-                hover:bg-[#09AFF4] transition"
+                hover:bg-[#09AFF4] transition group"
               >
-                <Image className="mb-5 inline-block" src={card2} alt="pro" />
+                <Image
+                  className="mb-5 inline-block"
+                  src={images.card2}
+                  width={50}
+                  height={50}
+                  alt="pro"
+                />
 
                 <h4
                   className="mb-[18px]
@@ -241,7 +257,7 @@ const PricingSection = () => {
                 </div>
 
                 <div>
-                  <button className="bg-[#09AFF4] text-xl border-2  border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-white hover:text-[#09aff4]">
+                  <button className="bg-[#09AFF4] text-xl border-2  border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] group-hover:bg-white group-hover:text-[#09aff4]">
                     See All Plans
                   </button>
                 </div>
@@ -255,11 +271,13 @@ const PricingSection = () => {
                 shadow-[1px_1px_10px_rgba(6,9,34,0.15)]rounded-[8px_8px_0px_0px]
                 text-center
                 hover:text-white 
-                hover:bg-[#09AFF4] transition"
+                hover:bg-[#09AFF4] transition group"
               >
                 <Image
                   className="mb-5 inline-block"
-                  src={card3}
+                  src={images.card3}
+                  width={50}
+                  height={50}
                   alt="unlimited"
                 />
 
@@ -299,7 +317,7 @@ const PricingSection = () => {
                 </div>
 
                 <div>
-                  <button className="bg-[#09AFF4] text-xl border-2  border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] hover:bg-white hover:text-[#09aff4]">
+                  <button className="bg-[#09AFF4] text-xl border-2  border-[#09AFF4] py-3 w-full shadow-[0px_3px_10px_-5px_rgba(6,9,34,0.15)] rounded-[4px_16px] group-hover:bg-white group-hover:text-[#09aff4]">
                     See All Plans
                   </button>
                 </div>

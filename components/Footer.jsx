@@ -1,21 +1,23 @@
-import logo from "../assets/images/FooterImg/logo-colored.png.png";
-import message from "../assets/images/FooterImg/envelop.png";
-import location from "../assets/images/FooterImg/location.png";
-import phone from "../assets/images/FooterImg/phone.png";
-import facebook from "../assets/images/FooterImg/facebook.png";
-import youtube from "../assets/images/FooterImg/youtube.png";
-import instagram from "../assets/images/FooterImg/instagram.png";
-import twitter from "../assets/images/FooterImg/twitter.png";
 import Image from "next/image";
 
 const Footer = () => {
+  const images = {
+    logo: "/assets/images/FooterImg/logo-colored.png.png",
+    message: "/assets/images/FooterImg/envelop.png",
+    location: "/assets/images/FooterImg/location.png",
+    phone: "/assets/images/FooterImg/phone.png",
+    facebook: "/assets/images/FooterImg/facebook.png",
+    youtube: "/assets/images/FooterImg/youtube.png",
+    instagram: "/assets/images/FooterImg/instagram.png",
+    twitter: "/assets/images/FooterImg/twitter.png",
+  };
   return (
     <>
       <section
         className='pt-16
         pb-2
         bg-[#24153B]
-        bg-[url("../assets/images/FooterImg/footer-bg.png")]'
+        bg-[url("/assets/images/FooterImg/footer-bg.png")]'
       >
         <div className="container mx-auto px-5">
           <div>
@@ -28,7 +30,13 @@ const Footer = () => {
             >
               {/* left side start */}
               <div className="px-3 pb-8 lg:w-2/5">
-                <Image width={80} className="mb-6" src={logo} alt="logo" />
+                <Image
+                  width={80}
+                  className="mb-6"
+                  src={images.logo}
+                  height={80}
+                  alt="logo"
+                />
 
                 <p className="text-white mb-6">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -101,19 +109,34 @@ const Footer = () => {
                 <div>
                   {/* 1 */}
                   <div className="flex items-center gap-2 mb-6">
-                    <Image src={message} alt="message" />
+                    <Image
+                      src={images.message}
+                      height={30}
+                      width={30}
+                      alt="message"
+                    />
                     <p>example@support.com</p>
                   </div>
 
                   {/* 2 */}
                   <div className="flex items-center gap-2 mb-6">
-                    <Image src={location} alt="location" />
+                    <Image
+                      src={images.location}
+                      height={30}
+                      width={30}
+                      alt="location"
+                    />
                     <address>5 Xyz st., Abc, alexandria, egypt.</address>
                   </div>
 
                   {/* 3 */}
                   <div className="flex items-center gap-2 mb-6">
-                    <Image src={phone} alt="phone" />
+                    <Image
+                      src={images.phone}
+                      height={25}
+                      width={25}
+                      alt="phone"
+                    />
                     <p>+20123456789</p>
                   </div>
                 </div>
@@ -121,19 +144,39 @@ const Footer = () => {
                 {/* icons */}
                 <div className="flex items-center gap-[10px]">
                   <a href="#">
-                    <Image src={facebook} alt="facebook" />
+                    <Image
+                      src={images.facebook}
+                      height={30}
+                      width={30}
+                      alt="facebook"
+                    />
                   </a>
 
                   <a href="#">
-                    <Image src={youtube} alt="youtube" />
+                    <Image
+                      src={images.youtube}
+                      height={30}
+                      width={30}
+                      alt="youtube"
+                    />
                   </a>
 
                   <a href="#">
-                    <Image src={instagram} alt="instagram" />
+                    <Image
+                      src={images.instagram}
+                      height={30}
+                      width={30}
+                      alt="instagram"
+                    />
                   </a>
 
                   <a href="#">
-                    <Image src={twitter} alt="twitter" />
+                    <Image
+                      src={images.twitter}
+                      height={30}
+                      width={30}
+                      alt="twitter"
+                    />
                   </a>
                 </div>
               </div>

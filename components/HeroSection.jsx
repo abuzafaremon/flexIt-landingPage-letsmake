@@ -4,15 +4,16 @@ import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 
-import solutions from "../assets/images/heroImg/solutions.png";
-import VectorUnderline from "../assets/images/heroImg/VectorUnderline.png";
-
 const HeroSection = () => {
+  const images = {
+    solutions: "/assets/images/heroImg/solutions.png",
+    VectorUnderline: "/assets/images/heroImg/VectorUnderline.png",
+  };
   return (
     <>
       <section
         id="hero"
-        className="bg-[url('../assets/images/heroImg/Herobg.png')] bg-cover bg-no-repeat bg-center w-full pb-20"
+        className="bg-[url('/assets/images/heroImg/Herobg.png')] bg-cover bg-no-repeat bg-center w-full pb-20"
       >
         <div className='bg-[url("/src/images/heroImg/bgTop.png")] w-full h-full'>
           <div className="container mx-auto p-5">
@@ -49,13 +50,14 @@ const HeroSection = () => {
                     <span>service & IT</span>
                     <div>
                       <Image
-                        className="
-                                    w-[87px]
+                        className="w-[87px]
                                     md:w-52
                                     lg:w-[220px]
                                     xl:w-[250px]
                                     "
-                        src={solutions}
+                        src={images.solutions}
+                        width={250}
+                        height={250}
                         alt="solutions"
                       />
                       <Image
@@ -65,7 +67,9 @@ const HeroSection = () => {
                                     lg:w-[220px]
                                     xl:w-[250px]
                                     "
-                        src={VectorUnderline}
+                        src={images.VectorUnderline}
+                        width={250}
+                        height={250}
                         alt="underline"
                       />
                     </div>

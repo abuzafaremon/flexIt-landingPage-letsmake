@@ -1,8 +1,10 @@
 import Image from "next/image";
-import email from "../assets/images/OfficeBranchImg/email.png";
-import phone from "../assets/images/OfficeBranchImg/phone-call.png";
 
 const OfficeBranches = () => {
+  const images = {
+    email: "/assets/images/OfficeBranchImg/email.png",
+    phone: "/assets/images/OfficeBranchImg/phone-call.png",
+  };
   return (
     <>
       <section
@@ -52,7 +54,12 @@ const OfficeBranches = () => {
                 </p>
 
                 <div className="flex items-center gap-4 mb-8 mt-[37px]">
-                  <Image src={email} alt="email" />
+                  <Image
+                    src={images.email}
+                    width={50}
+                    height={50}
+                    alt="email"
+                  />
                   <div>
                     <h3 className="text-xl text-[#09AFF4BF] font-medium">
                       Email:
@@ -64,7 +71,12 @@ const OfficeBranches = () => {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <Image src={phone} alt="phone" />
+                  <Image
+                    src={images.phone}
+                    width={50}
+                    height={50}
+                    alt="phone"
+                  />
                   <div>
                     <h3 className="text-xl text-[#09AFF4BF] font-medium">
                       Phone:
@@ -96,7 +108,12 @@ const OfficeBranches = () => {
                 </p>
 
                 <div className="flex items-center gap-4 mb-8 mt-[37px]">
-                  <Image src={email} alt="" />
+                  <Image
+                    src={images.email}
+                    width={50}
+                    height={50}
+                    alt="image"
+                  />
                   <div>
                     <h3 className="text-xl text-[#09AFF4BF] font-medium">
                       Email:
@@ -108,7 +125,12 @@ const OfficeBranches = () => {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <Image src={phone} alt="" />
+                  <Image
+                    src={images.phone}
+                    width={50}
+                    height={50}
+                    alt="image"
+                  />
                   <div>
                     <h3 className="text-xl text-[#09AFF4BF] font-medium">
                       Phone:
@@ -140,7 +162,12 @@ const OfficeBranches = () => {
                 </p>
 
                 <div className="flex items-center gap-4 mb-8 mt-[37px]">
-                  <Image src={email} alt="" />
+                  <Image
+                    src={images.email}
+                    width={50}
+                    height={50}
+                    alt="image"
+                  />
                   <div>
                     <h3 className="text-xl text-[#09AFF4BF] font-medium">
                       Email:
@@ -152,7 +179,12 @@ const OfficeBranches = () => {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <Image src={phone} alt="" />
+                  <Image
+                    src={images.phone}
+                    width={50}
+                    height={50}
+                    alt="image"
+                  />
                   <div>
                     <h3 className="text-xl text-[#09AFF4BF] font-medium">
                       Phone:

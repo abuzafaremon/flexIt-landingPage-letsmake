@@ -1,9 +1,11 @@
-import img1 from "../assets/images/NewsImg/img-1.png";
-import img2 from "../assets/images/NewsImg/img-2.png";
-import img3 from "../assets/images/NewsImg/img-3.png";
 import Image from "next/image";
 
 const News = () => {
+  const images = {
+    img1: "/assets/images/NewsImg/img-1.png",
+    img2: "/assets/images/NewsImg/img-2.png",
+    img3: "/assets/images/NewsImg/img-3.png",
+  };
   return (
     <>
       <section className="py-20 dark:text-white dark:bg-slate-900">
@@ -61,7 +63,13 @@ const News = () => {
                 bg-[#DAF3FD]
                 dark:bg-slate-900"
               >
-                <Image className="w-full" src={img1} alt="news" />
+                <Image
+                  className="w-full"
+                  src={images.img1}
+                  width={600}
+                  height={600}
+                  alt="news"
+                />
 
                 <div className="p-4">
                   <div
@@ -72,7 +80,7 @@ const News = () => {
                   >
                     <div className="flex items-center gap-[10px]">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns="http://www.w3.org/6000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
@@ -91,7 +99,7 @@ const News = () => {
                     <div className="h-4 w-[1px] bg-black"></div>
                     <div className="flex items-center gap-[10px]">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns="http://www.w3.org/6000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
@@ -137,7 +145,13 @@ const News = () => {
                 bg-[#DAF3FD]
                 dark:bg-slate-900"
               >
-                <Image className="w-full" src={img2} alt="news" />
+                <Image
+                  className="w-full"
+                  src={images.img2}
+                  width={600}
+                  height={600}
+                  alt="news"
+                />
 
                 <div className="p-4">
                   <div
@@ -148,7 +162,7 @@ const News = () => {
                   >
                     <div className="flex items-center gap-[10px]">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns="http://www.w3.org/6000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
@@ -167,7 +181,7 @@ const News = () => {
                     <div className="h-4 w-[1px] bg-black"></div>
                     <div className="flex items-center gap-[10px]">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns="http://www.w3.org/6000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
@@ -213,13 +227,19 @@ const News = () => {
                 bg-[#DAF3FD]
                 dark:bg-slate-900"
               >
-                <Image className="w-full" src={img3} alt="news" />
+                <Image
+                  className="w-full"
+                  src={images.img3}
+                  width={600}
+                  height={600}
+                  alt="news"
+                />
 
                 <div className="p-4">
                   <div className="flex justify-start items-center gap-3 mb-2">
                     <div className="flex items-center gap-[10px]">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns="http://www.w3.org/6000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
@@ -238,7 +258,7 @@ const News = () => {
                     <div className="h-4 w-[1px] bg-black"></div>
                     <div className="flex items-center gap-[10px]">
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns="http://www.w3.org/6000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}

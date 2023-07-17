@@ -1,10 +1,12 @@
-import logoImg from "../assets/images/heroImg/logo.png";
-import searchIcon from "../assets/images/heroImg/SearchIcon.png";
-import darkMode from "../assets/images/heroImg/DarkMode.png";
 import Image from "next/image";
 import DropdownMenu from "./DropdownMenu";
 
 const Navbar = () => {
+  const images = {
+    logoImg: "/assets/images/heroImg/logo.png",
+    searchIcon: "/assets/images/heroImg/SearchIcon.png",
+    darkMode: "/assets/images/heroImg/DarkMode.png",
+  };
   return (
     <header className="sticky top-0 bg-[#0C264B] bg-opacity-95">
       <div className="container mx-auto px-4 py-3">
@@ -12,7 +14,12 @@ const Navbar = () => {
           className="flex justify-between items-center" //TODO: same class for dif device
         >
           <a href="#hero">
-            <Image src={logoImg} alt="Logo img" />
+            <Image
+              src={images.logoImg}
+              width={100}
+              height={100}
+              alt="Logo img"
+            />
           </a>
 
           <div>
@@ -79,9 +86,19 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <Image src={searchIcon} alt="Search Icon" />
+            <Image
+              src={images.searchIcon}
+              width={30}
+              height={30}
+              alt="Search Icon"
+            />
             <div className="h-9 w-9 bg-black rounded-full flex justify-center items-center">
-              <Image src={darkMode} alt="Dark mode icon" />
+              <Image
+                src={images.darkMode}
+                width={20}
+                height={20}
+                alt="Dark mode icon"
+              />
             </div>
             <DropdownMenu />
           </div>
